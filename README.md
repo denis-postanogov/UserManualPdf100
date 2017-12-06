@@ -4,9 +4,9 @@ Collection of multilingual User Manuals (PDF documents) to be used as test datas
 
 ## How to obtain PDF files
 
-Run `make` or `make download_pdf` from UserManualPdf100 directory. This will download PDF files from their internet links listed in `data/pdf-links.txt`.
-
-This will download 100 PDF files and place them into 'pdf' directory. Each file will be checked against its expected checksum.
+Run `make` or `make download_pdf` from UserManualPdf100 directory. 
+This will download 100 PDF files (see URLs in `data/pdf-links.txt`), and place them into 'pdf' directory. 
+Each file will be checked against its expected checksum.
 
 NOTE: to make the downloading faster, run `make -j 10` to enable 10 download jobs simultaneously.
 
@@ -19,7 +19,55 @@ E.g., the following line:
 
         UMP100-00536704.pdf   4   eng   eng
      
-means that document "UMP100-00536704.pdf" has page #4 with "English" language identified by 
+means that the document "UMP100-00536704.pdf" has page #4 with "English" language identified by 
 human annotator (based on viewing the document), and "English" language detected (based on automatic 
 analysis of text extracted from page).
 
+Language annotation statistics:
+
+|Language|Annotated pages|Detected pages|Annotated=Detected pages|
+|-|-|-|-|
+|ara|81|43|34|
+|bos|0|1|0|
+|bul|108|101|98|
+|ces|137|132|123|
+|dan|253|252|238|
+|deu|492|536|477|
+|ell|194|196|181|
+|eng|1181|1265|1159|
+|est|102|100|89|
+|far|8|0|0|
+|fas|0|8|0|
+|fin|175|172|162|
+|fra|461|493|436|
+|heb|6|3|3|
+|hin|2|2|2|
+|hrv|96|116|82|
+|hun|168|164|155|
+|ind|18|18|18|
+|isl|2|2|2|
+|ita|372|420|358|
+|jpn|138|145|117|
+|kaz|41|41|41|
+|kor|140|147|132|
+|lav|99|93|86|
+|lit|96|90|83|
+|mkd|17|21|17|
+|ndl|3|0|0|
+|nld|306|305|291|
+|nor|163|161|150|
+|pol|302|311|292|
+|por|226|248|211|
+|ron|116|122|113|
+|rus|721|759|708|
+|slk|108|110|103|
+|slv|121|128|117|
+|spa|521|528|484|
+|srp|74|45|45|
+|swe|265|276|261|
+|tha|17|17|17|
+|tur|163|166|158|
+|ukr|94|96|94|
+|vie|6|6|6|
+|zho|147|246|144|
+|zlm|6|4|4|
