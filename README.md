@@ -1,6 +1,6 @@
-# UserManualPdf100
+# UserManualPdf100 Dataset
 
-Collection of multilingual User Manuals (PDF documents) to be used as test dataset for different projects.
+Collection of multilingual User Manuals (PDF documents) to use as a test dataset for different projects.
 
 ## How to obtain PDF files
 
