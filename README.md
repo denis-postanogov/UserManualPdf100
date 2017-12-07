@@ -12,7 +12,7 @@ or (to run 10 download jobs simultaneously):
 
     make -j 10
 
-This will download 100 PDF files from their original internet links listed in `data/pdf-links.txt`, and place them into 'pdf' directory. Total download size expected 479,018,455 bytes in 100 files. Each file will be checked against its expected checksum. Please report the author if download failed failed.
+This will download 100 PDF files from their original internet links listed in `data/pdf-links.txt`, and place them into 'pdf' directory. Total download size is expected 479,018,455 bytes in 100 files. Each file will be checked against its expected checksum. Please report the author if download fails.
 
 ## Language annotations for pages
 
