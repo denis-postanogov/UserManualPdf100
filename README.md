@@ -84,3 +84,5 @@ Total pages: 8,478.
 ## Author
 
 Denis Postanogov (email: {firstname}.{lastname}@ihsmarkit.com)
+
+(c) Copyright 2017 IHS Markit Ltd.
