@@ -39,8 +39,7 @@ Language annotation statistics:
 |ell|194|196|181|
 |eng|1181|1265|1159|
 |est|102|100|89|
-|far|8|0|0|
-|fas|0|8|0|
+|fas|8|8|8|
 |fin|175|172|162|
 |fra|461|493|436|
 |heb|6|3|3|
@@ -56,8 +55,7 @@ Language annotation statistics:
 |lav|99|93|86|
 |lit|96|90|83|
 |mkd|17|21|17|
-|ndl|3|0|0|
-|nld|306|305|291|
+|nld|309|305|294|
 |nor|163|161|150|
 |pol|302|311|292|
 |por|226|248|211|
@@ -89,13 +87,13 @@ or (to run 10 simultaneous jobs on your powerfull server):
 
     make -j 10 produce_png
     
-This will create directory 'images' and generate 7,291 PNG image files in PNG format from the pages of PDF documents with definitely known language. The image files will be distributed in directories according to language code (ara, bul, ces, dan, deu, ell, eng, ...) and named as follows:
+This will create directory 'images' and generate 7,302 PNG image files in PNG format from the pages of PDF documents with definitely known language. The image files will be distributed in directories according to language code (ara, bul, ces, dan, deu, ell, eng, ...) and named as follows:
 
         images/eng/UMP100-00536704.pdf.004.png 
 
 This file is English language page #4 from PDF file "UMP100-00536704.pdf". 
 
-The number of generated PNG files in each folder is given in the last column of above table. Resolution for generated PNG files is 300 dpi, with total size 3,812,807,702 bytes in 7,291 files.
+The number of generated PNG files in each folder is given in the last column of above table. Resolution for generated PNG files is 300 dpi, with total size 3,816,705,512 bytes in 7,302 files.
 
 ### Dependency 
 
