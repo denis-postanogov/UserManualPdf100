@@ -12,8 +12,7 @@ NOTE: to make the downloading faster, run `make -j 10` to enable 10 download job
 
 ## Language Annotations for Pages
 
-As some projects require information about the languages used in the document, or the language of the document page, the file `data/pdf-page-lang-annotation.txt` contains 
-annotation of mono-lingual pages of 100 documents.
+As some projects require information about the languages used in the document, or the language of the document page, the file `data/pdf-page-lang-annotation.txt` contains annotation of mono-lingual pages of 100 documents.
 
 E.g., the following line:
 
@@ -21,7 +20,7 @@ E.g., the following line:
      
 means that the document "UMP100-00536704.pdf" has page #4 with "English" language identified by 
 human annotator (based on viewing the document), and "English" language detected (based on automatic 
-analysis of text extracted from page).
+analysis of text extracted from page using langdetect system described in \[1\]).
 
 Language annotation statistics:
 
@@ -71,3 +70,7 @@ Language annotation statistics:
 |vie|6|6|6|
 |zho|147|246|144|
 |zlm|6|4|4|
+
+## References
+
+1. N. Stefanovitch. [Robust Multilingual Document Identification](http://elib.bsu.by/bitstream/123456789/160177/1/Stefanovitch.pdf). International congress on Computer Science: Information Systems and Technologies (CSIST'2016). Minsk, October 24–27, 2016.
