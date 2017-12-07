@@ -79,7 +79,7 @@ Total pages: 8,478.
 
 ## How to obtain image files for PDF pages
 
-Some projects require 
+Some projects (e.g. to test an OCR system), require image files produced from pages with known languages. 
 
 Run:
 
