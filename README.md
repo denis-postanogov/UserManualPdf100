@@ -4,13 +4,17 @@ Collection of multilingual User Manuals (PDF documents) to be used as test datas
 
 ## How to obtain PDF files
 
-Run `make` or `make download_pdf` from UserManualPdf100 directory. 
-This will download 100 PDF files (see URLs in `data/pdf-links.txt`), and place them into 'pdf' directory. 
-Each file will be checked against its expected checksum.
+From the project's directory, run:
 
-NOTE: to make the downloading faster, run `make -j 10` to enable 10 download jobs simultaneously.
+    make
 
-## Language Annotations for Pages
+or (to run 10 download jobs simultaneously):
+
+    make -j 10
+
+This will download 100 PDF files from their original internet links listed in `data/pdf-links.txt`, and place them into 'pdf' directory. Total download size expected 479,018,455 bytes in 100 files. Each file will be checked against its expected checksum. Please report the author if download failed failed.
+
+## Language annotations for pages
 
 As some projects require information about the languages used in the document, or the language of the document page, the file `data/pdf-page-lang-annotation.txt` contains annotation of mono-lingual pages of 100 documents.
 
@@ -71,6 +75,12 @@ Language annotation statistics:
 |zho|147|246|144|
 |zlm|6|4|4|
 
+Total pages: 8,478.
+
 ## References
 
 1. N. Stefanovitch. [Robust Multilingual Document Identification](http://elib.bsu.by/bitstream/123456789/160177/1/Stefanovitch.pdf). International congress on Computer Science: Information Systems and Technologies (CSIST'2016). Minsk, October 24–27, 2016.
+
+## Author
+
+Denis Postanogov (email: {firstname}.{lastname}@ihsmarkit.com)
