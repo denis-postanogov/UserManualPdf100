@@ -1,6 +1,8 @@
 # UserManualPdf100 Dataset
 
-Collection of multilingual User Manuals (PDF documents) to use as a test dataset for different projects.
+Collection of language-annotated multilingual User Manuals (PDF documents) to use as a test dataset for different projects. Each user manual is a multipage document, in most of the cases having the same text data written in many languages. The table of contents page usually lists all the languages, that is why it was easier to annotate pages with language identifiers. Language annotation is done per-page, and located in `data/pdf-page-lang-annotation.txt` file.
+
+The user manuals are shared as web links to PDF files, so you may download them from internet based on `data/pdf-links.txt` list using any tool you want. Alternatively you may use the GNU Make script from this project to download and check the files with one command in Linux. Additionally, for testing OCR projects, you can extract images with specific make target, if you have all dependencies installed on your machine.
 
 ## How to obtain PDF files
 
